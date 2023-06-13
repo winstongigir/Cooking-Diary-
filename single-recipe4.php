@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe </title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/icons.png" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.php" class="nav-logo">
+            <img src="./assets/logo2.png" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.php" class="nav-link"> home </a>
+          <a href="about.php" class="nav-link"> about </a>
+          <a href="tags.php" class="nav-link"> tags </a>
+          <a href="recipes.php" class="nav-link"> recipes </a>
+          <a href="form-upload.php" class="nav-link"> form upload </a>
+          <a href="https://youtu.be/wElVrcz7U5Ql" class="nav-link"> link video presentasi </a>
+          <div class="nav-link contact-link">
+            <a href="contact.php" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/resep4.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Nasi Goreng</h2>
+            <p>
+              Yang lagi bosen sama rendang, opor, semur, gulai, dll.. bikin tempe mendoan aja yuk.😁 
+              Anget2 lalap cabe rawit atau cocol sambel kecap, dijamin ludes dalam sekejap.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>20 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.php">Makan Siang</a>
+             
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Iris tipis tempe. Iris halus daun bawang. Sisihkan.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Campur semua tepung, garam, ketumbar bubuk, kunyit bubuk, kaldu bubuk dan bawang putih halus. 
+                Tuang air sedikit demi sedikit,hingga kekentalan yang diinginkan. Aduk rata. Masukkan daun bawang iris.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Celupakan tempe ke dalam adonan tepung. Goreng hingga kuning keemasan. 
+                Mau yang kering ataupun masih agak basah boleh2 saja. Sesuaikan selera.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+             <!-- single instruction -->
+             <div class="single-instruction">
+              <header>
+                <p>step 4</p>
+                <div></div>
+              </header>
+              <p>
+                Angkat dan tiriskan. Sajikan dengan cabai rawit atau sambal kecap.
+              </p>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">1 Papan Tempe</p>
+              <p class="single-ingredient">2 Tangkai Daun Bawang</p>
+              <p class="single-ingredient">10 sdm Tepung Terigu</p>
+              <p class="single-ingredient">2 sdm Tepung Beras</p>
+              <p class="single-ingredient">2 sdm Tepung Tapioka</p>
+              <p class="single-ingredient">2 Siung Bawang Putih, haluskan</p>
+              <p class="single-ingredient">1 sdt Ketumbar Bubuk</p>
+              <p class="single-ingredient">1/2 sdt Kunyit Bubuk </p>
+              <p class="single-ingredient">1 sdt Garam</p>
+              <p class="single-ingredient">secukupnya air</p>
+              <p class="single-ingredient">1/2 Kaldu Bubuk</p>
+              <p class="single-ingredient">secukupnya minyak goreng</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Kompor</p>
+              <p class="single-tool">Penggorengan</p>
+              <p class="single-tool">Pisau</p>
+              <p class="single-tool">Spatula</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+   <!-- footer -->
+   <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">CookingDiary</span> Built by
+      <a href="https://youtu.be/wElVrcz7U5Q">Kelompok 6</a>
+    </p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+</html>
