@@ -1,2 +1,2 @@
 # Cooking-Diary-
-web cooking diary
+Tugas kelompok d Coooking diary
